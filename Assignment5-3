@@ -1,0 +1,26 @@
+#Assignment-5: OOPs
+#Challenge 3
+
+class Student:
+
+    def _init_(self):
+        self.__name="name"
+        self.__rollno=25
+
+    def setName(self,name):
+        self.__name=name
+    def getName(self):
+        print(self.__name)
+
+    def setRollNumber(self,rollno):
+        self.__rollno=rollno
+    def getRollNumber(self):
+        print(self.__rollno)
+In [11]:
+obj=Student()
+obj.getName()
+obj.setName("rohan")
+obj.getName()
+obj.getRollNumber()
+obj.setRollNumber(55)
+obj.getRollNumber()
